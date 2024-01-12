@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sagor ahammed</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-1">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Online Book Shop</a>
+
+          <div class="search-container">
+            <form action="/search" method="GET">
+              <div class="" style="display: flex; justify-content:center; align-items: baseline;">
+                <input type="text" placeholder="Search..." name="q" class="search-input">
+                <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+              </div>
+            </form>
+          </div>
+        <nav class="navbar navbar-inverse bg-inverse bg-faded">
+          <div class="row">
+            <div  class="col align-items-center d-flex">
+             
+              <button class="">
+                
+              </button>
+              <div class="div">(<span class="total-count"></span>)<a  href="cart.html" class="fas fa-shopping-cart"></a></div>
+
+              <button class="bttn clear-cart btn btn-danger ms-2">
+                <i class="fas fa-trash"></i>
+              </button>
+              <div class="div"><a  href="login.html" class="fas fa-user-circle"></a></div>
+              
+            </div>
+          </div>
+        </nav>
+
+      </div>
+
+      <div class="header-2">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Home</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#product">Product</a>
+                </li>
+                <li class="nav-item dropdown mx-3">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Category
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="thriller.html"
+                        >Thriller</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="horror.html">Horror</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="mystery.html">Mystery</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="science fiction.html">Science Fiction</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./hadis.html">Al Hadis</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./poet.html">Al Poet</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./novel.html">Novel</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" aria-current="page" href="./deal.html">Deal</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" aria-current="page" href="./contact.html"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" aria-current="page" href="./blog.html"
+                    >Blog</a
+                  >
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" aria-current="page" href="./contact.html"
+                    >About</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="icons">
+          
+          <!-- <a href="index.html" class="fas fa-shopping-cart" id="cart">0</a> -->
+        </div>
+      </div>
+    </header>
+
+    <section class="product" id="product">
+      <h1 class="heading">Our <span>products</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <span class="discount">-13%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/9.jpg" alt="" />
+          <h3>The Patient</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">175tk <span> 190tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-20%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/science fiction/2.jpg" alt="" />
+          <h3>Big story</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">150tk <span> 190tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-55%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/science fiction/3.jpeg" alt="" />
+          <h3>Romance Science/h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">300tk <span> 350tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-30%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/science fiction/5.jpg" alt="" />
+          <h3>Sky Arive</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">220tk <span> 310tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-40%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/horror/2.jpg" alt="" />
+          <h3>Kumary</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">175tk <span> 200tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+        
+        <div class="box">
+          <span class="discount">-33%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/horror/5.jpg" alt="" />
+          <h3>Skilark</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">400tk <span> 540tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-33%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/50.jpg" alt="" />
+          <h3>Mystery Romance</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">400tk <span> 500tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-45%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/7.jpg" alt="" />
+          <h3>Thriller</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">200tk <span> 320tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-52%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/15.jpg" alt="" />
+          <h3>Sonchita</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">270tk <span> 300tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-13%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/14.jpeg" alt="" />
+          <h3>Mortal Dilemma</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">375tk <span> 490tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-20%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/41.jpg" alt="" />
+          <h3>Name of the slum</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">250tk <span> 390tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-29%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/19.jpg" alt="" />
+          <h3>Islamic Poem</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">140tk <span> 165tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-55%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/21.jpg" alt="" />
+          <h3>Freedom </h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">300tk <span> 350tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-30%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/25.jpg" alt="" />
+          <h3>science fiction </h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">220tk <span> 310tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-40%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/30.png" alt="" />
+          <h3>Dune</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">175tk <span> 200tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-13%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/13.JPG" alt="" />
+          <h3>Killer of age </h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">175tk <span> 190tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-20%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/science fiction/5.jpg" alt="" />
+          <h3>American Fiction</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">150tk <span> 190tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-55%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/horror/1.jpg" alt="" />
+          <h3>Ghost story</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">300tk <span> 350tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-30%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/mystery/1.jpeg" alt="" />
+          <h3>Born of kashmir</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">220tk <span> 310tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-40%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/thriller/3.jpg" alt="" />
+          <h3>Thriller story</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">175tk <span> 200tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+        
+        <div class="box">
+          <span class="discount">-33%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/60.jpg" alt="" />
+          <h3>Palampure senapoti</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">40tk <span> 50tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-13%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/61.jpg" alt="" />
+          <h3>Thriller coumix</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">175tk <span> 190tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-20%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/62.jpg" alt="" />
+          <h3>Last landing</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">150tk <span> 190tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-55%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/63.jpg" alt="" />
+          <h3>I am pilgim</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">300tk <span> 350tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-30%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/65.jpg" alt="" />
+          <h3>Islamic Book</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">220tk <span> 310tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-40%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/66.jpg" alt="" />
+          <h3>Hadis</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">175tk <span> 200tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+        
+        <div class="box">
+          <span class="discount">-33%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/67.jpg" alt="" />
+          <h3>The Sunset Rise</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">40tk <span> 50tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-13%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/68.jpg" alt="" />
+          <h3>The Long Game</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">175tk <span> 190tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-20%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/69.jpg" alt="" />
+          <h3>Shallow River</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">150tk <span> 190tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-29%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/70.png" alt="" />
+          <h3>Hadis Sharif</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">140tk <span> 165tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-55%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/71.jpg" alt="" />
+          <h3>Kuranul Karim</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">300tk <span> 350tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-30%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/72.jpg" alt="" />
+          <h3>Fajayel e amol</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">220tk <span> 310tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-40%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/73.jpg" alt="" />
+          <h3>Sirate Mostofa</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">175tk <span> 200tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-33%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/74.jpg" alt="" />
+          <h3> Kuran Sharif</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">40tk <span> 50tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-45%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/75.jpg" alt="" />
+          <h3>Landmark</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">100tk <span> 120tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /pcs </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount">-52%</span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/76.jpg" alt="" />
+          <h3>Shohoboter Story</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">170tk <span> 200tk </span></div>
+          <div class="quantity">
+            <span>quantity : </span>
+            <input type="number" min="1" max="1000" value="1" />
+            <span> /kg </span>
+          </div>
+          <a href="#" class="btn add-to-cart">add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="logo"
+            ><i class="fas fa-shopping-basket"></i>ONLINE BOOK SHOP
+            </a
+          >
+          <p>
+            Owner By:<br />
+            Sagor Ahammed <br />
+            Computer Science & Engineering<br />
+
+            Green University Of Bangladesh<br />
+            sagorahammed164@gmail.com<br />
+
+            Mirpur,Dhaka-1216
+          </p>
+          <div class="share">
+            <a
+              href="https://www.facebook.com/sagorahammedcse"
+              class="btn bi bi-facebook"></a>
+            <a
+              href="https://www.instagram.com/sagorahammedcse/"
+              class="btn bi bi-instagram"></a>
+            <a
+              href="https://twitter.com/sagorahammedcse"
+              class="btn bi bi-twitter"></a>
+            <a
+              href="https://www.linkedin.com/in/sagor-ahammed-184095233/"
+              class="btn bi bi-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>our location</h3>
+          <div class="links">
+            <a href="#">Dhaka</a>
+            <a href="#">jamalpur</a>
+            <a href="#">Mymensingh</a>
+            <a href="#">Rajshahi</a>
+            <a href="#">Khulna</a>
+            <a href="#">Barisal</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <div class="links">
+            <a href="#">home</a>
+            <a href="#">category</a>
+            <a href="#">product</a>
+            <a href="#">deal</a>
+            <a href="#">contact</a>
+            <a href="#">owner</a>
+          </div>
+        </div>
+        <div class="box">
+          <h3>download app</h3>
+          <div class="links">
+            <a href="#">google play</a>
+            <a href="#">window xp</a>
+            <a href="#">app store</a>
+            <a href="#">microsoft store</a>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="credit">
+        created by
+        <span>
+          <a href="https://www.facebook.com/sagorahammedcse"
+            >Md Sagor Ahammed</a
+          >
+        </span>
+        | all rights reserved!
+      </h1>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"></script>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/atc.js"></script>
+  </body>
+</html>
